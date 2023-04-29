@@ -10,6 +10,7 @@
   </div>
 </template>
 
+<!-- Compositional API, SFC Single Files Components -->
 <script setup>
 import { ref } from 'vue'
 
@@ -24,7 +25,7 @@ const decreaseCounter = () => {
 }
 </script>
 
-<!--
+<!-- setup pattern with Option API
 <script>
 import { ref } from 'vue'
 
@@ -50,7 +51,7 @@ export default {
 </script>
 -->
 
-<!--
+<!-- option API
 <script>
 export default {
   data() {
@@ -76,7 +77,7 @@ export default {
   padding: 20px;
 }
 .btn, .counter {
-  font-size: 40px;
+  font-size: 100px;
   margin: 10px;
 }
 </style>
