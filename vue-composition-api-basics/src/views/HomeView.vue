@@ -25,51 +25,51 @@ const decreaseCounter = () => {
 }
 </script>
 
-<!-- setup pattern with Option API
-<script>
-import { ref } from 'vue'
+// <!-- 
+//   <script>
+// import { ref } from 'vue'
 
-export default {
-  setup() {
-    const counter = ref(0)
+// export default {
+//   setup() {
+//     const counter = ref(0)
 
-    const increaseCounter = () => {
-      counter.value++
-    }
+//     const increaseCounter = () => {
+//       counter.value++
+//     }
 
-    const decreaseCounter = () => {
-      counter.value--
-    }
+//     const decreaseCounter = () => {
+//       counter.value--
+//     }
 
-    return {
-      counter,
-      increaseCounter,
-      decreaseCounter
-    }
-  }
-}
-</script>
--->
+//     return {
+//       counter,
+//       increaseCounter,
+//       decreaseCounter
+//     }
+//   }
+// }
+// </script>
+// -->
 
-<!-- option API
-<script>
-export default {
-  data() {
-    return {
-      counter: 0
-    }
-  },
-  methods: {
-    increaseCounter() {
-      this.counter++
-    },
-    decreaseCounter() {
-      this.counter--
-    }
-  }
-}
-</script>
--->
+// <!--
+// <script>
+// export default {
+//   data() {
+//     return {
+//       counter: 0
+//     }
+//   },
+//   methods: {
+//     increaseCounter() {
+//       this.counter++
+//     },
+//     decreaseCounter() {
+//       this.counter--
+//     }
+//   }
+// }
+// </script>
+// -->
 
 <style>
 .home {
