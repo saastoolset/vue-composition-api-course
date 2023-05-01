@@ -28,7 +28,7 @@
   imports
 */
 
-  import { reactive, computed, watch, onMounted } from 'vue'
+  import { reactive, computed, watch, onMounted, onBeforeMount, onUpdated } from 'vue'
 
 /*
   app title
@@ -71,7 +71,13 @@
   onMounted(() => {
     console.log('Do stuff related to Counter')
   })
+  onBeforeMount(() => {
+    console.log('onBeforeMount')
+  })
 
+  onUpdated(() => {
+    console.log('onUpdated')
+  })  
 </script>
 
 <!--
